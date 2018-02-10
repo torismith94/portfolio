@@ -24,3 +24,73 @@ header {
     flex-direction: column;
     text-align: center;
 }
+
+header > nav {
+    background-color: white;
+    display: none;
+    flex: 1;
+    transform: 300ms all ease;
+}
+
+header nav > ul {
+    list-style-type: none;
+}
+
+header nav > ul > li {
+    border-bottom: 1px dotted rgba(0,0,0,.1);
+    position: relative;
+}
+
+header nav > ul > li > a {
+    display: block;
+    color: rgba(0,0,0,.65);
+    font-weight: 700;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    transition: 250ms all ease;
+}
+
+header nav > ul > li:last-of-type {
+    border-bottom: none;
+}
+
+header nav > ul > li > a span.toggle {
+    background-color: rgba(0,0,0,.1);
+    font-size: 0.75em;
+    font-weight: 500;
+    padding: 0x;
+    text-transform: lowercase;
+}
+
+header nav > ul > li > a span.caret {
+    display: none;
+}
+
+header > nav > ul > li:hover > a {
+    color: black;
+}
+
+/* creating the drop down menu  */
+
+header > nav > ul > li > nav {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 5%;
+    width: 90%;
+    z-index: 100;
+}
+
+/* styling the drop down menu list items (sub-navigation)  */
+
+header > nav > ul > li > nav > ul > li > a {
+    color: rbga(255,255,255,.85);
+    transition: 300ms all ease;
+}
+
+header > nav > ul > li > nav > ul > li:hover > a {
+    background-color: rgba(0,0,0,.6);
+    color: rgba(255,255,255,1);
+}
+
+/* logo and toggle button  */

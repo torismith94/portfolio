@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    color: #444; 
+    -webkit-font-smoothing: antialiased;
+    font-family: Avenir;
+    font-weight: 400;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+}

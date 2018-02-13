@@ -17,3 +17,17 @@ $("header &gt; nav &gt; ul &gt; li &gt; a").click(function(e) {
         }
     }
 });
+
+//toggling depending on screenwidth 
+$(window).resize(function() {
+    if($( window ).width() &gt;= "600") {
+        $("header &gt; nav").css("display", "block");
+
+        if ($("#logo").attr('class') == "menuDown") {
+            $("#logo").toggleClass("menuUp menuDown");
+        }
+    }
+    else {
+        $("header &gt; nav").css("display", "none");
+    }
+});

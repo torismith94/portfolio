@@ -6,10 +6,15 @@
 }
 
 .container {
-    position: absolute;
+    position: relative;
     top: 20%
-
 }
+
+.contact {
+    border: 2px solid;
+    border-radius: 50%;
+}
+
 body {
     background: #eee;
     color: #444;
@@ -21,6 +26,8 @@ body {
     min-height: 100%;
     text-rendering: optimizeLegibility;
 }
+
+
 
 header {
     background-color: white;

@@ -11,8 +11,8 @@
 }
 
 .contact {
+    margin: 32px;
     border: 2px solid;
-    border-radius: 50%;
 }
 
 body {

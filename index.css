@@ -19,6 +19,7 @@
 body {
     background: #eee;
     color: #444;
+    -webkit-font-smoothing: antialiased;
     font-family: Avenir, Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-weight: 400;
@@ -138,7 +139,7 @@ header {
                 display: none;
                 overflow: hidden;
                 position: absolute;
-                /* right: 5%; */
+                right: 5%;
                 width: 100%;
                 z-index: 100;
             }

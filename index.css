@@ -18,6 +18,17 @@ body {
     font-size: 14px;
 }
 
+#myTopnav {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
 .topnav a:hover {
     background-color: #ddd ;
     color: black;

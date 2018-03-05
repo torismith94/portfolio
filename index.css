@@ -6,6 +6,9 @@ body {
 .topnav {
     overflow: hidden;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .topnav a {
@@ -17,17 +20,6 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
-
-#myTopnav {
-    overflow: hidden;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 
 .topnav a:hover {
     background-color: #ddd ;
@@ -70,15 +62,6 @@ body {
     }
 }
 
-#hi {
-    background-color: rgb(228, 208, 35);
-    height: 500px;
-}
-
-#intro {
-    background-color: black;
-    color: white;
-}
 /* TACHYONS for FOOTER */
 .dib {
     display: inline-block;

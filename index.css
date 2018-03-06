@@ -8,7 +8,7 @@ body {
     background-color: black;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; 
 }
 
 .topnav a {
@@ -140,7 +140,7 @@ body {
 }
 
 .b--gold {
-    border-color: #faad3f;
+    border-color: #fabf1d;
 }
 
 .bw1 {
@@ -211,7 +211,7 @@ body {
 }
 
 .bg-gold {
-    background-color: #f3ea72;
+    background-color: #fabf1d;
 }
 
 .pa1 {
@@ -245,6 +245,7 @@ body {
 
 .f2 {
     font-size: 2.25rem;
+    padding-top: 45px;
 }
 
 .f3 {

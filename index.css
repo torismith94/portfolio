@@ -93,6 +93,20 @@ a {
     width: 200px;
 }
 
+.services {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.contact {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
 /* TACHYONS for FOOTER */
 .dib {
     display: inline-block;

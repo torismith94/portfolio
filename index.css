@@ -62,6 +62,11 @@ body {
     }
 }
 
+#me {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
 /* TACHYONS for FOOTER */
 .dib {
     display: inline-block;
